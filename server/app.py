@@ -43,8 +43,6 @@ events_queue = Queue()
 
 
 #  hello World 
-
-# Add this helper function near the top of your app.py
 def send_rental_confirmation_email(user, owner, equipment, payment_intent, cart_item):
     """Formats and sends a rental confirmation email."""
     
